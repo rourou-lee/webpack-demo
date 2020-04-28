@@ -14,12 +14,23 @@ const HtmlWebpackPlugin=require('html-webpack-plugin')
  * clean-webpack-plugin:在打包之前会先删除dist下的内容，然后再生成
 */
 const {CleanWebpackPlugin}=require('clean-webpack-plugin')
+/** 
+ * sourceMap:是一种映射关系。他知道dist目录下main.js96行报错，实际上对应的
+ * 是src目录下的index.js文件中的第一行报错，使用映射关系，可配置devtool,生产环境配置成
+ * cheap-module-source-map比较好
+*/
 module.exports={
     mode:'development',//默认produnction,decelopment||none,设置为development时，生成的bundle.js是不被压缩的代码
+    devtool:'cheap-module-eval-source-map',//将map文件以base64字符串的形式打包到对应的脚本的最末尾
     //entry:'./src/index.js',
-    entry:{main:'./src/index.js'},
+    entry:{
+        main:'./src/index.js',
+        sub:'./src/index.js',
+    },
     output:{
-        filename:'dist.js',//打包后的文件名
+        //publicPath:'http://cdn.com.cn',//将静态资源放在cdn上
+        //filename:'dist.js',//打包后的文件名，默认是main.js
+        filename:'[name].js',//对应entry的名称
         path:path.resolve(__dirname,'dist'),//打包后的文件要放在哪，后面是绝对路径，打包后生成dist文件夹
     },
     module:{
