@@ -6,4 +6,4 @@
 //  var root=document.getElementById('app')
 // root.appendChild(img);
 
-consele.log('hello world')
+console.log('hello world');
