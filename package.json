@@ -3,10 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "bundle": "webpack",
-    "watch": "webpack --watch",
     "dev": "webpack-dev-server",
-    "middleware": "node server.js"
+    "hotModule":"node server2.js"
   },
   "author": "rourouli",
   "license": "ISC",
@@ -21,7 +19,8 @@
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11",
     "webpack-dev-middleware": "^3.7.2",
-    "webpack-dev-server": "^3.10.3"
+    "webpack-dev-server": "^3.10.3",
+    "webpack-hot-middleware": "^2.25.0"
   },
   "main": "index.js",
   "dependencies": {},

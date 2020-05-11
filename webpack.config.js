@@ -1,17 +1,20 @@
 
 const path=require('path');
-
 const HtmlWebpackPlugin=require('html-webpack-plugin')
-
 const {CleanWebpackPlugin}=require('clean-webpack-plugin')
-
+const webpack=require('webpack');
 module.exports={
     mode:'development',//默认produnction,decelopment||none,设置为development时，生成的bundle.js是不被压缩的代码
     devtool:'cheap-module-eval-source-map',//将map文件以base64字符串的形式打包到对应的脚本的最末尾
     entry:'./src/index.js',
-    devServer:{
-        open:true
+    entry:{
+        main: ['webpack-hot-middleware/client', './src/index.js']
     },
+   // devServer:{
+        //open:true,
+        //hot:true,//开启hot module replacement
+        //hotOnly:true,//即便html功能没生效，浏览器也不自动刷新
+   // },
     output:{
         //publicPath:'/',//打包生成的文件路径前面加一个根路径
         //publicPath:'http://cdn.com.cn',//将静态资源放在cdn上
@@ -47,7 +50,9 @@ module.exports={
             ]              
         }]
     },
-    plugins:[new HtmlWebpackPlugin({
+    plugins:[
+            new webpack.HotModuleReplacementPlugin(),
+            new HtmlWebpackPlugin({
                 template:'src/index.html'
             }),
             new CleanWebpackPlugin()],
