@@ -4,11 +4,15 @@
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server",
-    "hotModule":"node server2.js"
+    "hotModule": "node server2.js"
   },
   "author": "rourouli",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/plugin-transform-runtime": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "babel-loader": "^8.1.0",
     "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^3.5.3",
     "express": "^4.17.1",
@@ -23,7 +27,11 @@
     "webpack-hot-middleware": "^2.25.0"
   },
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "@babel/polyfill": "^7.8.7",
+    "@babel/runtime": "^7.9.6",
+    "@babel/runtime-corejs2": "^7.9.6"
+  },
   "description": "webpack study demo",
   "repository": {
     "type": "git",

@@ -1,0 +1,16 @@
+{
+  "presets": [
+        [
+            "@babel/preset-env",{
+                "useBuiltIns":"usage",
+                "targets": {
+                    //表示项目在打包后运行在以下版本浏览器,比如谷歌版本大于67，浏览器对ES6语法兼容较好，不会再做转义了
+                    "edge": "17",
+                    "firefox": "60",
+                    "chrome": "67",
+                    "safari": "11.1"
+                }
+            }
+        ]
+    ]
+}
