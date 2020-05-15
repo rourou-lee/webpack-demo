@@ -1,9 +1,11 @@
 {
   "name": "webpack-demo",
+  "sideEffects": false,
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "webpack-dev-server",
+    "dev": "webpack-dev-server --config ./build/webpack.dev.js",
+    "build": "webpack --config ./build/webpack.prod.js",
     "hotModule": "node server2.js"
   },
   "author": "rourouli",
@@ -24,7 +26,8 @@
     "webpack-cli": "^3.3.11",
     "webpack-dev-middleware": "^3.7.2",
     "webpack-dev-server": "^3.10.3",
-    "webpack-hot-middleware": "^2.25.0"
+    "webpack-hot-middleware": "^2.25.0",
+    "webpack-merge": "^4.2.2"
   },
   "main": "index.js",
   "dependencies": {
