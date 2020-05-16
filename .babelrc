@@ -10,6 +10,7 @@
                     "chrome": "67",
                     "safari": "11.1"
                 },
+                "corejs": 2
                 /** 当有设置时，指定的目录将用来缓存 loader 的执行结果。之后的 webpack 构建，将会尝试读取缓存，
                 来避免在每次执行时，可能产生的、高性能消耗的 Babel 重新编译过程(recompilation process)。
                 如果设置了一个空值 (loader: 'babel-loader?cacheDirectory') 或者 true (loader: 'babel-loader?cacheDirectory=true')，loader 将使用默认的缓存目录 node_modules/.cache/babel-loader，
@@ -17,5 +18,6 @@
                
             }
         ]
-    ]
+    ],
+    "plugins": ["@babel/plugin-syntax-dynamic-import"]
 }
