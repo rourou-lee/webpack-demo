@@ -1,14 +1,17 @@
-function getComponent(){
-    //异步引入lodash库,打包后名称为wendors-lodash.js，可通过修改webpack.common.js的optimization修改名称
-    return import(/*webpackChunkName:"lodash"*/'lodash').then(({default:_})=>{
-        var element=document.createElement('div');
-        element.innerHTML=_.join(['早上好','rourou-lee']);
-        return element;
+// async function getComponent(){
+//     const {default:_}=await import(/*webpackChunkName:"lodash"*/ 'lodash');
+//      const element=document.createElement('div');
+//         element.innerHTML=_.join(['早上好','rourou-lee']);
+//         return element;
+//     //异步引入lodash库,打包后名称为wendors-lodash.js，可通过修改webpack.common.js的optimization修改名称
+// }
+
+document.addEventListener('click',()=>{
+    import(/* webpackPrefetch: true */'./click.js').then(({default:func})=>{
+        func();
     })
-}
-getComponent().then(element=>{
-    document.body.appendChild(element);
 });
+
 // import _ from 'lodash';
 // var element=document.createElement('div');
 //          element.innerHTML=_.join(['早上好','rourou-lee']);
