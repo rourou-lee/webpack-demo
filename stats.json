@@ -2,28 +2,26 @@
   "errors": [],
   "warnings": [],
   "version": "4.43.0",
-  "hash": "b93805f65840f9d13290",
-  "time": 3093,
-  "builtAt": 1589795116365,
+  "hash": "24e864fec82fa6147f45",
+  "time": 580,
+  "builtAt": 1590224181935,
   "publicPath": "",
-  "outputPath": "C:\\Users\\lijiangbo\\Desktop\\webpack\\webpack-demo\\dist",
+  "outputPath": "/Users/lijiangbo/Desktop/webpack/webpack-demo/dist",
   "assetsByChunkName": {
     "main": "main.js"
   },
   "assets": [
     {
-      "name": "0.js",
-      "size": 1287,
-      "chunks": [
-        0
-      ],
+      "name": "images/logo.jpeg",
+      "size": 641492,
+      "chunks": [],
       "chunkNames": [],
       "info": {},
       "emitted": true
     },
     {
       "name": "index.html",
-      "size": 270,
+      "size": 260,
       "chunks": [],
       "chunkNames": [],
       "info": {},
@@ -31,7 +29,7 @@
     },
     {
       "name": "main.js",
-      "size": 38906,
+      "size": 72015,
       "chunks": [
         "main"
       ],
@@ -69,54 +67,267 @@
   },
   "chunks": [
     {
-      "id": 0,
+      "id": "main",
       "rendered": true,
-      "initial": false,
-      "entry": false,
-      "size": 188,
-      "names": [],
-      "files": [
-        "0.js"
-      ],
-      "hash": "5d883a29115da697c551",
-      "siblings": [],
-      "parents": [
+      "initial": true,
+      "entry": true,
+      "size": 12841,
+      "names": [
         "main"
       ],
+      "files": [
+        "main.js"
+      ],
+      "hash": "b56e26b50d3e92958212",
+      "siblings": [],
+      "parents": [],
       "children": [],
       "childrenByOrder": {},
       "modules": [
         {
-          "id": "./src/click.js",
-          "identifier": "C:\\Users\\lijiangbo\\Desktop\\webpack\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!C:\\Users\\lijiangbo\\Desktop\\webpack\\webpack-demo\\src\\click.js",
-          "name": "./src/click.js",
-          "index": 1,
-          "index2": 1,
-          "size": 188,
+          "id": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/css/common.scss",
+          "identifier": "/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/postcss-loader/src/index.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/src/css/common.scss",
+          "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src!./src/css/common.scss",
+          "index": 4,
+          "index2": 3,
+          "size": 561,
           "cacheable": true,
           "built": true,
           "optional": false,
           "prefetched": false,
           "chunks": [
-            0
+            "main"
           ],
-          "issuer": "C:\\Users\\lijiangbo\\Desktop\\webpack\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!C:\\Users\\lijiangbo\\Desktop\\webpack\\webpack-demo\\src\\index.js",
+          "issuer": "/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/style-loader/dist/cjs.js??ref--5-0!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/postcss-loader/src/index.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/src/css/common.scss",
+          "issuerId": "./src/css/common.scss",
+          "issuerName": "./src/css/common.scss",
+          "issuerPath": [
+            {
+              "id": "./src/index.js",
+              "identifier": "/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/babel-loader/lib/index.js?cacheDirectory=true!/Users/lijiangbo/Desktop/webpack/webpack-demo/src/index.js",
+              "name": "./src/index.js",
+              "profile": {
+                "factory": 44,
+                "building": 202
+              }
+            },
+            {
+              "id": "./src/css/common.scss",
+              "identifier": "/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/style-loader/dist/cjs.js??ref--5-0!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/postcss-loader/src/index.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/src/css/common.scss",
+              "name": "./src/css/common.scss",
+              "profile": {
+                "factory": 17,
+                "building": 81
+              }
+            }
+          ],
+          "profile": {
+            "factory": 58,
+            "building": 273
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "./src/css/common.scss",
+              "moduleIdentifier": "/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/style-loader/dist/cjs.js??ref--5-0!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/postcss-loader/src/index.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/src/css/common.scss",
+              "module": "./src/css/common.scss",
+              "moduleName": "./src/css/common.scss",
+              "type": "cjs require",
+              "userRequest": "!!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!../../node_modules/postcss-loader/src/index.js!./common.scss",
+              "loc": "2:26-184"
+            },
+            {
+              "moduleId": "./src/css/common.scss",
+              "moduleIdentifier": "/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/style-loader/dist/cjs.js??ref--5-0!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/postcss-loader/src/index.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/src/css/common.scss",
+              "module": "./src/css/common.scss",
+              "moduleName": "./src/css/common.scss",
+              "type": "module.hot.accept",
+              "userRequest": "!!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!../../node_modules/postcss-loader/src/index.js!./common.scss",
+              "loc": "43:4-64:5"
+            },
+            {
+              "moduleId": "./src/css/common.scss",
+              "moduleIdentifier": "/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/style-loader/dist/cjs.js??ref--5-0!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/postcss-loader/src/index.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/src/css/common.scss",
+              "module": "./src/css/common.scss",
+              "moduleName": "./src/css/common.scss",
+              "type": "cjs require",
+              "userRequest": "!!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!../../node_modules/postcss-loader/src/index.js!./common.scss",
+              "loc": "46:18-176"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 2,
+          "source": "// Imports\nvar ___CSS_LOADER_API_IMPORT___ = require(\"../../node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.id, \"html, body {\\n  padding: 0;\\n  margin: 0;\\n  background-color: red; }\\n  html .avatar, body .avatar {\\n    width: 150px;\\n    height: 150px;\\n    transform: translate(100px, 100px); }\\n\\nul, li {\\n  padding: 0;\\n  margin: 0;\\n  list-style: none; }\\n\\nimg {\\n  width: 50%; }\\n\\ndiv:nth-of-type(odd) {\\n  background: yellow; }\\n\", \"\"]);\n// Exports\nmodule.exports = exports;\n"
+        },
+        {
+          "id": "./node_modules/css-loader/dist/runtime/api.js",
+          "identifier": "/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/css-loader/dist/runtime/api.js",
+          "name": "./node_modules/css-loader/dist/runtime/api.js",
+          "index": 5,
+          "index2": 2,
+          "size": 2517,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "main"
+          ],
+          "issuer": "/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/postcss-loader/src/index.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/src/css/common.scss",
+          "issuerId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/css/common.scss",
+          "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src!./src/css/common.scss",
+          "issuerPath": [
+            {
+              "id": "./src/index.js",
+              "identifier": "/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/babel-loader/lib/index.js?cacheDirectory=true!/Users/lijiangbo/Desktop/webpack/webpack-demo/src/index.js",
+              "name": "./src/index.js",
+              "profile": {
+                "factory": 44,
+                "building": 202
+              }
+            },
+            {
+              "id": "./src/css/common.scss",
+              "identifier": "/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/style-loader/dist/cjs.js??ref--5-0!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/postcss-loader/src/index.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/src/css/common.scss",
+              "name": "./src/css/common.scss",
+              "profile": {
+                "factory": 17,
+                "building": 81
+              }
+            },
+            {
+              "id": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/css/common.scss",
+              "identifier": "/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/postcss-loader/src/index.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/src/css/common.scss",
+              "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src!./src/css/common.scss",
+              "profile": {
+                "factory": 58,
+                "building": 273
+              }
+            }
+          ],
+          "profile": {
+            "factory": 0,
+            "building": 3
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/css/common.scss",
+              "moduleIdentifier": "/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/postcss-loader/src/index.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/src/css/common.scss",
+              "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src!./src/css/common.scss",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src!./src/css/common.scss",
+              "type": "cjs require",
+              "userRequest": "../../node_modules/css-loader/dist/runtime/api.js",
+              "loc": "2:34-94"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 3,
+          "source": "\"use strict\";\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n  Author Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\n// eslint-disable-next-line func-names\nmodule.exports = function (useSourceMap) {\n  var list = []; // return the list of modules as css string\n\n  list.toString = function toString() {\n    return this.map(function (item) {\n      var content = cssWithMappingToString(item, useSourceMap);\n\n      if (item[2]) {\n        return \"@media \".concat(item[2], \" {\").concat(content, \"}\");\n      }\n\n      return content;\n    }).join('');\n  }; // import a list of modules into the list\n  // eslint-disable-next-line func-names\n\n\n  list.i = function (modules, mediaQuery, dedupe) {\n    if (typeof modules === 'string') {\n      // eslint-disable-next-line no-param-reassign\n      modules = [[null, modules, '']];\n    }\n\n    var alreadyImportedModules = {};\n\n    if (dedupe) {\n      for (var i = 0; i < this.length; i++) {\n        // eslint-disable-next-line prefer-destructuring\n        var id = this[i][0];\n\n        if (id != null) {\n          alreadyImportedModules[id] = true;\n        }\n      }\n    }\n\n    for (var _i = 0; _i < modules.length; _i++) {\n      var item = [].concat(modules[_i]);\n\n      if (dedupe && alreadyImportedModules[item[0]]) {\n        // eslint-disable-next-line no-continue\n        continue;\n      }\n\n      if (mediaQuery) {\n        if (!item[2]) {\n          item[2] = mediaQuery;\n        } else {\n          item[2] = \"\".concat(mediaQuery, \" and \").concat(item[2]);\n        }\n      }\n\n      list.push(item);\n    }\n  };\n\n  return list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n  var content = item[1] || ''; // eslint-disable-next-line prefer-destructuring\n\n  var cssMapping = item[3];\n\n  if (!cssMapping) {\n    return content;\n  }\n\n  if (useSourceMap && typeof btoa === 'function') {\n    var sourceMapping = toComment(cssMapping);\n    var sourceURLs = cssMapping.sources.map(function (source) {\n      return \"/*# sourceURL=\".concat(cssMapping.sourceRoot || '').concat(source, \" */\");\n    });\n    return [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n  }\n\n  return [content].join('\\n');\n} // Adapted from convert-source-map (MIT)\n\n\nfunction toComment(sourceMap) {\n  // eslint-disable-next-line no-undef\n  var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n  var data = \"sourceMappingURL=data:application/json;charset=utf-8;base64,\".concat(base64);\n  return \"/*# \".concat(data, \" */\");\n}"
+        },
+        {
+          "id": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+          "identifier": "/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+          "name": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+          "index": 3,
+          "index2": 1,
+          "size": 6804,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "main"
+          ],
+          "issuer": "/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/style-loader/dist/cjs.js??ref--5-0!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/postcss-loader/src/index.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/src/css/common.scss",
+          "issuerId": "./src/css/common.scss",
+          "issuerName": "./src/css/common.scss",
+          "issuerPath": [
+            {
+              "id": "./src/index.js",
+              "identifier": "/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/babel-loader/lib/index.js?cacheDirectory=true!/Users/lijiangbo/Desktop/webpack/webpack-demo/src/index.js",
+              "name": "./src/index.js",
+              "profile": {
+                "factory": 44,
+                "building": 202
+              }
+            },
+            {
+              "id": "./src/css/common.scss",
+              "identifier": "/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/style-loader/dist/cjs.js??ref--5-0!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/postcss-loader/src/index.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/src/css/common.scss",
+              "name": "./src/css/common.scss",
+              "profile": {
+                "factory": 17,
+                "building": 81
+              }
+            }
+          ],
+          "profile": {
+            "factory": 58,
+            "building": 273
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "./src/css/common.scss",
+              "moduleIdentifier": "/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/style-loader/dist/cjs.js??ref--5-0!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/postcss-loader/src/index.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/src/css/common.scss",
+              "module": "./src/css/common.scss",
+              "moduleName": "./src/css/common.scss",
+              "type": "cjs require",
+              "userRequest": "!../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+              "loc": "1:10-94"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 2,
+          "source": "\"use strict\";\n\nvar isOldIE = function isOldIE() {\n  var memo;\n  return function memorize() {\n    if (typeof memo === 'undefined') {\n      // Test for IE <= 9 as proposed by Browserhacks\n      // @see http://browserhacks.com/#hack-e71d8692f65334173fee715c222cb805\n      // Tests for existence of standard globals is to allow style-loader\n      // to operate correctly into non-standard environments\n      // @see https://github.com/webpack-contrib/style-loader/issues/177\n      memo = Boolean(window && document && document.all && !window.atob);\n    }\n\n    return memo;\n  };\n}();\n\nvar getTarget = function getTarget() {\n  var memo = {};\n  return function memorize(target) {\n    if (typeof memo[target] === 'undefined') {\n      var styleTarget = document.querySelector(target); // Special case to return head of iframe instead of iframe itself\n\n      if (window.HTMLIFrameElement && styleTarget instanceof window.HTMLIFrameElement) {\n        try {\n          // This will throw an exception if access to iframe is blocked\n          // due to cross-origin restrictions\n          styleTarget = styleTarget.contentDocument.head;\n        } catch (e) {\n          // istanbul ignore next\n          styleTarget = null;\n        }\n      }\n\n      memo[target] = styleTarget;\n    }\n\n    return memo[target];\n  };\n}();\n\nvar stylesInDom = [];\n\nfunction getIndexByIdentifier(identifier) {\n  var result = -1;\n\n  for (var i = 0; i < stylesInDom.length; i++) {\n    if (stylesInDom[i].identifier === identifier) {\n      result = i;\n      break;\n    }\n  }\n\n  return result;\n}\n\nfunction modulesToDom(list, options) {\n  var idCountMap = {};\n  var identifiers = [];\n\n  for (var i = 0; i < list.length; i++) {\n    var item = list[i];\n    var id = options.base ? item[0] + options.base : item[0];\n    var count = idCountMap[id] || 0;\n    var identifier = \"\".concat(id, \" \").concat(count);\n    idCountMap[id] = count + 1;\n    var index = getIndexByIdentifier(identifier);\n    var obj = {\n      css: item[1],\n      media: item[2],\n      sourceMap: item[3]\n    };\n\n    if (index !== -1) {\n      stylesInDom[index].references++;\n      stylesInDom[index].updater(obj);\n    } else {\n      stylesInDom.push({\n        identifier: identifier,\n        updater: addStyle(obj, options),\n        references: 1\n      });\n    }\n\n    identifiers.push(identifier);\n  }\n\n  return identifiers;\n}\n\nfunction insertStyleElement(options) {\n  var style = document.createElement('style');\n  var attributes = options.attributes || {};\n\n  if (typeof attributes.nonce === 'undefined') {\n    var nonce = typeof __webpack_nonce__ !== 'undefined' ? __webpack_nonce__ : null;\n\n    if (nonce) {\n      attributes.nonce = nonce;\n    }\n  }\n\n  Object.keys(attributes).forEach(function (key) {\n    style.setAttribute(key, attributes[key]);\n  });\n\n  if (typeof options.insert === 'function') {\n    options.insert(style);\n  } else {\n    var target = getTarget(options.insert || 'head');\n\n    if (!target) {\n      throw new Error(\"Couldn't find a style target. This probably means that the value for the 'insert' parameter is invalid.\");\n    }\n\n    target.appendChild(style);\n  }\n\n  return style;\n}\n\nfunction removeStyleElement(style) {\n  // istanbul ignore if\n  if (style.parentNode === null) {\n    return false;\n  }\n\n  style.parentNode.removeChild(style);\n}\n/* istanbul ignore next  */\n\n\nvar replaceText = function replaceText() {\n  var textStore = [];\n  return function replace(index, replacement) {\n    textStore[index] = replacement;\n    return textStore.filter(Boolean).join('\\n');\n  };\n}();\n\nfunction applyToSingletonTag(style, index, remove, obj) {\n  var css = remove ? '' : obj.media ? \"@media \".concat(obj.media, \" {\").concat(obj.css, \"}\") : obj.css; // For old IE\n\n  /* istanbul ignore if  */\n\n  if (style.styleSheet) {\n    style.styleSheet.cssText = replaceText(index, css);\n  } else {\n    var cssNode = document.createTextNode(css);\n    var childNodes = style.childNodes;\n\n    if (childNodes[index]) {\n      style.removeChild(childNodes[index]);\n    }\n\n    if (childNodes.length) {\n      style.insertBefore(cssNode, childNodes[index]);\n    } else {\n      style.appendChild(cssNode);\n    }\n  }\n}\n\nfunction applyToTag(style, options, obj) {\n  var css = obj.css;\n  var media = obj.media;\n  var sourceMap = obj.sourceMap;\n\n  if (media) {\n    style.setAttribute('media', media);\n  } else {\n    style.removeAttribute('media');\n  }\n\n  if (sourceMap && btoa) {\n    css += \"\\n/*# sourceMappingURL=data:application/json;base64,\".concat(btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))), \" */\");\n  } // For old IE\n\n  /* istanbul ignore if  */\n\n\n  if (style.styleSheet) {\n    style.styleSheet.cssText = css;\n  } else {\n    while (style.firstChild) {\n      style.removeChild(style.firstChild);\n    }\n\n    style.appendChild(document.createTextNode(css));\n  }\n}\n\nvar singleton = null;\nvar singletonCounter = 0;\n\nfunction addStyle(obj, options) {\n  var style;\n  var update;\n  var remove;\n\n  if (options.singleton) {\n    var styleIndex = singletonCounter++;\n    style = singleton || (singleton = insertStyleElement(options));\n    update = applyToSingletonTag.bind(null, style, styleIndex, false);\n    remove = applyToSingletonTag.bind(null, style, styleIndex, true);\n  } else {\n    style = insertStyleElement(options);\n    update = applyToTag.bind(null, style, options);\n\n    remove = function remove() {\n      removeStyleElement(style);\n    };\n  }\n\n  update(obj);\n  return function updateStyle(newObj) {\n    if (newObj) {\n      if (newObj.css === obj.css && newObj.media === obj.media && newObj.sourceMap === obj.sourceMap) {\n        return;\n      }\n\n      update(obj = newObj);\n    } else {\n      remove();\n    }\n  };\n}\n\nmodule.exports = function (list, options) {\n  options = options || {}; // Force single-tag solution on IE6-9, which has a hard limit on the # of <style>\n  // tags it will allow on a page\n\n  if (!options.singleton && typeof options.singleton !== 'boolean') {\n    options.singleton = isOldIE();\n  }\n\n  list = list || [];\n  var lastIdentifiers = modulesToDom(list, options);\n  return function update(newList) {\n    newList = newList || [];\n\n    if (Object.prototype.toString.call(newList) !== '[object Array]') {\n      return;\n    }\n\n    for (var i = 0; i < lastIdentifiers.length; i++) {\n      var identifier = lastIdentifiers[i];\n      var index = getIndexByIdentifier(identifier);\n      stylesInDom[index].references--;\n    }\n\n    var newLastIdentifiers = modulesToDom(newList, options);\n\n    for (var _i = 0; _i < lastIdentifiers.length; _i++) {\n      var _identifier = lastIdentifiers[_i];\n\n      var _index = getIndexByIdentifier(_identifier);\n\n      if (stylesInDom[_index].references === 0) {\n        stylesInDom[_index].updater();\n\n        stylesInDom.splice(_index, 1);\n      }\n    }\n\n    lastIdentifiers = newLastIdentifiers;\n  };\n};"
+        },
+        {
+          "id": "./src/css/common.scss",
+          "identifier": "/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/style-loader/dist/cjs.js??ref--5-0!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/postcss-loader/src/index.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/src/css/common.scss",
+          "name": "./src/css/common.scss",
+          "index": 2,
+          "index2": 4,
+          "size": 1884,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "main"
+          ],
+          "issuer": "/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/babel-loader/lib/index.js?cacheDirectory=true!/Users/lijiangbo/Desktop/webpack/webpack-demo/src/index.js",
           "issuerId": "./src/index.js",
           "issuerName": "./src/index.js",
           "issuerPath": [
             {
               "id": "./src/index.js",
-              "identifier": "C:\\Users\\lijiangbo\\Desktop\\webpack\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!C:\\Users\\lijiangbo\\Desktop\\webpack\\webpack-demo\\src\\index.js",
+              "identifier": "/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/babel-loader/lib/index.js?cacheDirectory=true!/Users/lijiangbo/Desktop/webpack/webpack-demo/src/index.js",
               "name": "./src/index.js",
               "profile": {
-                "factory": 124,
-                "building": 2863
+                "factory": 44,
+                "building": 202
               }
             }
           ],
           "profile": {
-            "factory": 4,
-            "building": 18
+            "factory": 17,
+            "building": 81
           },
           "failed": false,
           "errors": 0,
@@ -125,63 +336,95 @@
           "reasons": [
             {
               "moduleId": "./src/index.js",
-              "moduleIdentifier": "C:\\Users\\lijiangbo\\Desktop\\webpack\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!C:\\Users\\lijiangbo\\Desktop\\webpack\\webpack-demo\\src\\index.js",
+              "moduleIdentifier": "/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/babel-loader/lib/index.js?cacheDirectory=true!/Users/lijiangbo/Desktop/webpack/webpack-demo/src/index.js",
               "module": "./src/index.js",
               "moduleName": "./src/index.js",
-              "type": "import()",
-              "userRequest": "./click.js",
-              "loc": "9:2-22"
+              "type": "harmony side effect evaluation",
+              "userRequest": "./css/common.scss",
+              "loc": "21:0-27"
             }
           ],
-          "usedExports": true,
+          "usedExports": false,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 1,
+          "source": "var api = require(\"!../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = require(\"!!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!../../node_modules/postcss-loader/src/index.js!./common.scss\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.id, content, '']];\n            }\n\nvar options = {\"injectType\":\"styleTag\"};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\n\nif (module.hot) {\n  if (!content.locals || module.hot.invalidate) {\n    var isEqualLocals = function isEqualLocals(a, b) {\n  if (!a && b || a && !b) {\n    return false;\n  }\n\n  var p;\n\n  for (p in a) {\n    if (a[p] !== b[p]) {\n      return false;\n    }\n  }\n\n  for (p in b) {\n    if (!a[p]) {\n      return false;\n    }\n  }\n\n  return true;\n};\n    var oldLocals = content.locals;\n\n    module.hot.accept(\n      \"!!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!../../node_modules/postcss-loader/src/index.js!./common.scss\",\n      function () {\n        content = require(\"!!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!../../node_modules/postcss-loader/src/index.js!./common.scss\");\n\n              content = content.__esModule ? content.default : content;\n\n              if (typeof content === 'string') {\n                content = [[module.id, content, '']];\n              }\n\n              if (!isEqualLocals(oldLocals, content.locals)) {\n                module.hot.invalidate();\n\n                return;\n              }\n\n              oldLocals = content.locals;\n\n              update(content);\n      }\n    )\n  }\n\n  module.hot.dispose(function() {\n    update();\n  });\n}\n\nmodule.exports = content.locals || {};"
+        },
+        {
+          "id": "./src/css/logo.jpeg",
+          "identifier": "/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/file-loader/dist/cjs.js??ref--4!/Users/lijiangbo/Desktop/webpack/webpack-demo/src/css/logo.jpeg",
+          "name": "./src/css/logo.jpeg",
+          "index": 1,
+          "index2": 0,
+          "size": 60,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "main"
+          ],
+          "issuer": "/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/babel-loader/lib/index.js?cacheDirectory=true!/Users/lijiangbo/Desktop/webpack/webpack-demo/src/index.js",
+          "issuerId": "./src/index.js",
+          "issuerName": "./src/index.js",
+          "issuerPath": [
+            {
+              "id": "./src/index.js",
+              "identifier": "/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/babel-loader/lib/index.js?cacheDirectory=true!/Users/lijiangbo/Desktop/webpack/webpack-demo/src/index.js",
+              "name": "./src/index.js",
+              "profile": {
+                "factory": 44,
+                "building": 202
+              }
+            }
+          ],
+          "profile": {
+            "factory": 17,
+            "building": 81
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+            "images/logo.jpeg"
+          ],
+          "reasons": [
+            {
+              "moduleId": "./src/index.js",
+              "moduleIdentifier": "/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/babel-loader/lib/index.js?cacheDirectory=true!/Users/lijiangbo/Desktop/webpack/webpack-demo/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./css/logo.jpeg",
+              "loc": "20:0-37"
+            },
+            {
+              "moduleId": "./src/index.js",
+              "moduleIdentifier": "/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/babel-loader/lib/index.js?cacheDirectory=true!/Users/lijiangbo/Desktop/webpack/webpack-demo/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "type": "harmony import specifier",
+              "userRequest": "./css/logo.jpeg",
+              "loc": "23:10-16"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
           "providedExports": [
             "default"
           ],
           "optimizationBailout": [],
           "depth": 1,
-          "source": "function haddleClick() {\n  const element = document.createElement('div');\n  element.innerHTML = '早上好,rourou-lee';\n  document.body.appendChild(element);\n}\n\nexport default haddleClick;"
-        }
-      ],
-      "filteredModules": 0,
-      "origins": [
-        {
-          "moduleId": "./src/index.js",
-          "module": "C:\\Users\\lijiangbo\\Desktop\\webpack\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!C:\\Users\\lijiangbo\\Desktop\\webpack\\webpack-demo\\src\\index.js",
-          "moduleIdentifier": "C:\\Users\\lijiangbo\\Desktop\\webpack\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!C:\\Users\\lijiangbo\\Desktop\\webpack\\webpack-demo\\src\\index.js",
-          "moduleName": "./src/index.js",
-          "loc": "9:2-22",
-          "request": "./click.js",
-          "reasons": []
-        }
-      ]
-    },
-    {
-      "id": "main",
-      "rendered": true,
-      "initial": true,
-      "entry": true,
-      "size": 787,
-      "names": [
-        "main"
-      ],
-      "files": [
-        "main.js"
-      ],
-      "hash": "f00260b83e2b1363d661",
-      "siblings": [],
-      "parents": [],
-      "children": [
-        0
-      ],
-      "childrenByOrder": {},
-      "modules": [
+          "source": "export default __webpack_public_path__ + \"images/logo.jpeg\";"
+        },
         {
           "id": "./src/index.js",
-          "identifier": "C:\\Users\\lijiangbo\\Desktop\\webpack\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!C:\\Users\\lijiangbo\\Desktop\\webpack\\webpack-demo\\src\\index.js",
+          "identifier": "/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/babel-loader/lib/index.js?cacheDirectory=true!/Users/lijiangbo/Desktop/webpack/webpack-demo/src/index.js",
           "name": "./src/index.js",
           "index": 0,
-          "index2": 0,
-          "size": 787,
+          "index2": 5,
+          "size": 1015,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -194,8 +437,8 @@
           "issuerName": null,
           "issuerPath": null,
           "profile": {
-            "factory": 124,
-            "building": 2863
+            "factory": 44,
+            "building": 202
           },
           "failed": false,
           "errors": 0,
@@ -213,10 +456,10 @@
             }
           ],
           "usedExports": true,
-          "providedExports": null,
+          "providedExports": [],
           "optimizationBailout": [],
           "depth": 0,
-          "source": "// async function getComponent(){\n//     const {default:_}=await import(/*webpackChunkName:\"lodash\"*/ 'lodash');\n//      const element=document.createElement('div');\n//         element.innerHTML=_.join(['早上好','rourou-lee']);\n//         return element;\n//     //异步引入lodash库,打包后名称为wendors-lodash.js，可通过修改webpack.common.js的optimization修改名称\n// }\ndocument.addEventListener('click', () => {\n  import('./click.js').then((_ref) => {\n    let {\n      default: func\n    } = _ref;\n    func();\n  });\n}); // import _ from 'lodash';\n// var element=document.createElement('div');\n//          element.innerHTML=_.join(['早上好','rourou-lee']);\n//          document.body.appendChild(element);\n// import {add} from './math.js';\n// console.log(add(1,2));"
+          "source": "// async function getComponent(){\n//     const {default:_}=await import(/*webpackChunkName:\"lodash\"*/ 'lodash');\n//      const element=document.createElement('div');\n//         element.innerHTML=_.join(['早上好','rourou-lee']);\n//         return element;\n//     //异步引入lodash库,打包后名称为wendors-lodash.js，可通过修改webpack.common.js的optimization修改名称\n// }\n//document.addEventListener('click',()=>{\n//   import(/* webpackPrefetch: true */'./click.js').then(({default:func})=>{\n//       func();\n//    })\n//});\n// import _ from 'lodash';\n// var element=document.createElement('div');\n//          element.innerHTML=_.join(['早上好','rourou-lee']);\n//          document.body.appendChild(element);\n// import {add} from './math.js';\n// console.log(add(1,2));\n//import \"@babel/polyfill\";\nimport avatar from './css/logo.jpeg';\nimport './css/common.scss';\nvar img = new Image();\nimg.src = avatar;\nimg.classList.add('avatar');\nvar root = document.getElementById('app');\nroot.append(img);"
         }
       ],
       "filteredModules": 0,
@@ -234,36 +477,249 @@
   ],
   "modules": [
     {
-      "id": "./src/click.js",
-      "identifier": "C:\\Users\\lijiangbo\\Desktop\\webpack\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!C:\\Users\\lijiangbo\\Desktop\\webpack\\webpack-demo\\src\\click.js",
-      "name": "./src/click.js",
-      "index": 1,
-      "index2": 1,
-      "size": 188,
+      "id": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/css/common.scss",
+      "identifier": "/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/postcss-loader/src/index.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/src/css/common.scss",
+      "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src!./src/css/common.scss",
+      "index": 4,
+      "index2": 3,
+      "size": 561,
       "cacheable": true,
       "built": true,
       "optional": false,
       "prefetched": false,
       "chunks": [
-        0
+        "main"
       ],
-      "issuer": "C:\\Users\\lijiangbo\\Desktop\\webpack\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!C:\\Users\\lijiangbo\\Desktop\\webpack\\webpack-demo\\src\\index.js",
+      "issuer": "/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/style-loader/dist/cjs.js??ref--5-0!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/postcss-loader/src/index.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/src/css/common.scss",
+      "issuerId": "./src/css/common.scss",
+      "issuerName": "./src/css/common.scss",
+      "issuerPath": [
+        {
+          "id": "./src/index.js",
+          "identifier": "/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/babel-loader/lib/index.js?cacheDirectory=true!/Users/lijiangbo/Desktop/webpack/webpack-demo/src/index.js",
+          "name": "./src/index.js",
+          "profile": {
+            "factory": 44,
+            "building": 202
+          }
+        },
+        {
+          "id": "./src/css/common.scss",
+          "identifier": "/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/style-loader/dist/cjs.js??ref--5-0!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/postcss-loader/src/index.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/src/css/common.scss",
+          "name": "./src/css/common.scss",
+          "profile": {
+            "factory": 17,
+            "building": 81
+          }
+        }
+      ],
+      "profile": {
+        "factory": 58,
+        "building": 273
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "./src/css/common.scss",
+          "moduleIdentifier": "/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/style-loader/dist/cjs.js??ref--5-0!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/postcss-loader/src/index.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/src/css/common.scss",
+          "module": "./src/css/common.scss",
+          "moduleName": "./src/css/common.scss",
+          "type": "cjs require",
+          "userRequest": "!!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!../../node_modules/postcss-loader/src/index.js!./common.scss",
+          "loc": "2:26-184"
+        },
+        {
+          "moduleId": "./src/css/common.scss",
+          "moduleIdentifier": "/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/style-loader/dist/cjs.js??ref--5-0!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/postcss-loader/src/index.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/src/css/common.scss",
+          "module": "./src/css/common.scss",
+          "moduleName": "./src/css/common.scss",
+          "type": "module.hot.accept",
+          "userRequest": "!!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!../../node_modules/postcss-loader/src/index.js!./common.scss",
+          "loc": "43:4-64:5"
+        },
+        {
+          "moduleId": "./src/css/common.scss",
+          "moduleIdentifier": "/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/style-loader/dist/cjs.js??ref--5-0!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/postcss-loader/src/index.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/src/css/common.scss",
+          "module": "./src/css/common.scss",
+          "moduleName": "./src/css/common.scss",
+          "type": "cjs require",
+          "userRequest": "!!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!../../node_modules/postcss-loader/src/index.js!./common.scss",
+          "loc": "46:18-176"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 2,
+      "source": "// Imports\nvar ___CSS_LOADER_API_IMPORT___ = require(\"../../node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.id, \"html, body {\\n  padding: 0;\\n  margin: 0;\\n  background-color: red; }\\n  html .avatar, body .avatar {\\n    width: 150px;\\n    height: 150px;\\n    transform: translate(100px, 100px); }\\n\\nul, li {\\n  padding: 0;\\n  margin: 0;\\n  list-style: none; }\\n\\nimg {\\n  width: 50%; }\\n\\ndiv:nth-of-type(odd) {\\n  background: yellow; }\\n\", \"\"]);\n// Exports\nmodule.exports = exports;\n"
+    },
+    {
+      "id": "./node_modules/css-loader/dist/runtime/api.js",
+      "identifier": "/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/css-loader/dist/runtime/api.js",
+      "name": "./node_modules/css-loader/dist/runtime/api.js",
+      "index": 5,
+      "index2": 2,
+      "size": 2517,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "main"
+      ],
+      "issuer": "/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/postcss-loader/src/index.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/src/css/common.scss",
+      "issuerId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/css/common.scss",
+      "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src!./src/css/common.scss",
+      "issuerPath": [
+        {
+          "id": "./src/index.js",
+          "identifier": "/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/babel-loader/lib/index.js?cacheDirectory=true!/Users/lijiangbo/Desktop/webpack/webpack-demo/src/index.js",
+          "name": "./src/index.js",
+          "profile": {
+            "factory": 44,
+            "building": 202
+          }
+        },
+        {
+          "id": "./src/css/common.scss",
+          "identifier": "/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/style-loader/dist/cjs.js??ref--5-0!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/postcss-loader/src/index.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/src/css/common.scss",
+          "name": "./src/css/common.scss",
+          "profile": {
+            "factory": 17,
+            "building": 81
+          }
+        },
+        {
+          "id": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/css/common.scss",
+          "identifier": "/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/postcss-loader/src/index.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/src/css/common.scss",
+          "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src!./src/css/common.scss",
+          "profile": {
+            "factory": 58,
+            "building": 273
+          }
+        }
+      ],
+      "profile": {
+        "factory": 0,
+        "building": 3
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/css/common.scss",
+          "moduleIdentifier": "/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/postcss-loader/src/index.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/src/css/common.scss",
+          "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src!./src/css/common.scss",
+          "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src!./src/css/common.scss",
+          "type": "cjs require",
+          "userRequest": "../../node_modules/css-loader/dist/runtime/api.js",
+          "loc": "2:34-94"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 3,
+      "source": "\"use strict\";\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n  Author Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\n// eslint-disable-next-line func-names\nmodule.exports = function (useSourceMap) {\n  var list = []; // return the list of modules as css string\n\n  list.toString = function toString() {\n    return this.map(function (item) {\n      var content = cssWithMappingToString(item, useSourceMap);\n\n      if (item[2]) {\n        return \"@media \".concat(item[2], \" {\").concat(content, \"}\");\n      }\n\n      return content;\n    }).join('');\n  }; // import a list of modules into the list\n  // eslint-disable-next-line func-names\n\n\n  list.i = function (modules, mediaQuery, dedupe) {\n    if (typeof modules === 'string') {\n      // eslint-disable-next-line no-param-reassign\n      modules = [[null, modules, '']];\n    }\n\n    var alreadyImportedModules = {};\n\n    if (dedupe) {\n      for (var i = 0; i < this.length; i++) {\n        // eslint-disable-next-line prefer-destructuring\n        var id = this[i][0];\n\n        if (id != null) {\n          alreadyImportedModules[id] = true;\n        }\n      }\n    }\n\n    for (var _i = 0; _i < modules.length; _i++) {\n      var item = [].concat(modules[_i]);\n\n      if (dedupe && alreadyImportedModules[item[0]]) {\n        // eslint-disable-next-line no-continue\n        continue;\n      }\n\n      if (mediaQuery) {\n        if (!item[2]) {\n          item[2] = mediaQuery;\n        } else {\n          item[2] = \"\".concat(mediaQuery, \" and \").concat(item[2]);\n        }\n      }\n\n      list.push(item);\n    }\n  };\n\n  return list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n  var content = item[1] || ''; // eslint-disable-next-line prefer-destructuring\n\n  var cssMapping = item[3];\n\n  if (!cssMapping) {\n    return content;\n  }\n\n  if (useSourceMap && typeof btoa === 'function') {\n    var sourceMapping = toComment(cssMapping);\n    var sourceURLs = cssMapping.sources.map(function (source) {\n      return \"/*# sourceURL=\".concat(cssMapping.sourceRoot || '').concat(source, \" */\");\n    });\n    return [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n  }\n\n  return [content].join('\\n');\n} // Adapted from convert-source-map (MIT)\n\n\nfunction toComment(sourceMap) {\n  // eslint-disable-next-line no-undef\n  var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n  var data = \"sourceMappingURL=data:application/json;charset=utf-8;base64,\".concat(base64);\n  return \"/*# \".concat(data, \" */\");\n}"
+    },
+    {
+      "id": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+      "identifier": "/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+      "name": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+      "index": 3,
+      "index2": 1,
+      "size": 6804,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "main"
+      ],
+      "issuer": "/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/style-loader/dist/cjs.js??ref--5-0!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/postcss-loader/src/index.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/src/css/common.scss",
+      "issuerId": "./src/css/common.scss",
+      "issuerName": "./src/css/common.scss",
+      "issuerPath": [
+        {
+          "id": "./src/index.js",
+          "identifier": "/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/babel-loader/lib/index.js?cacheDirectory=true!/Users/lijiangbo/Desktop/webpack/webpack-demo/src/index.js",
+          "name": "./src/index.js",
+          "profile": {
+            "factory": 44,
+            "building": 202
+          }
+        },
+        {
+          "id": "./src/css/common.scss",
+          "identifier": "/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/style-loader/dist/cjs.js??ref--5-0!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/postcss-loader/src/index.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/src/css/common.scss",
+          "name": "./src/css/common.scss",
+          "profile": {
+            "factory": 17,
+            "building": 81
+          }
+        }
+      ],
+      "profile": {
+        "factory": 58,
+        "building": 273
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "./src/css/common.scss",
+          "moduleIdentifier": "/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/style-loader/dist/cjs.js??ref--5-0!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/postcss-loader/src/index.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/src/css/common.scss",
+          "module": "./src/css/common.scss",
+          "moduleName": "./src/css/common.scss",
+          "type": "cjs require",
+          "userRequest": "!../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+          "loc": "1:10-94"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 2,
+      "source": "\"use strict\";\n\nvar isOldIE = function isOldIE() {\n  var memo;\n  return function memorize() {\n    if (typeof memo === 'undefined') {\n      // Test for IE <= 9 as proposed by Browserhacks\n      // @see http://browserhacks.com/#hack-e71d8692f65334173fee715c222cb805\n      // Tests for existence of standard globals is to allow style-loader\n      // to operate correctly into non-standard environments\n      // @see https://github.com/webpack-contrib/style-loader/issues/177\n      memo = Boolean(window && document && document.all && !window.atob);\n    }\n\n    return memo;\n  };\n}();\n\nvar getTarget = function getTarget() {\n  var memo = {};\n  return function memorize(target) {\n    if (typeof memo[target] === 'undefined') {\n      var styleTarget = document.querySelector(target); // Special case to return head of iframe instead of iframe itself\n\n      if (window.HTMLIFrameElement && styleTarget instanceof window.HTMLIFrameElement) {\n        try {\n          // This will throw an exception if access to iframe is blocked\n          // due to cross-origin restrictions\n          styleTarget = styleTarget.contentDocument.head;\n        } catch (e) {\n          // istanbul ignore next\n          styleTarget = null;\n        }\n      }\n\n      memo[target] = styleTarget;\n    }\n\n    return memo[target];\n  };\n}();\n\nvar stylesInDom = [];\n\nfunction getIndexByIdentifier(identifier) {\n  var result = -1;\n\n  for (var i = 0; i < stylesInDom.length; i++) {\n    if (stylesInDom[i].identifier === identifier) {\n      result = i;\n      break;\n    }\n  }\n\n  return result;\n}\n\nfunction modulesToDom(list, options) {\n  var idCountMap = {};\n  var identifiers = [];\n\n  for (var i = 0; i < list.length; i++) {\n    var item = list[i];\n    var id = options.base ? item[0] + options.base : item[0];\n    var count = idCountMap[id] || 0;\n    var identifier = \"\".concat(id, \" \").concat(count);\n    idCountMap[id] = count + 1;\n    var index = getIndexByIdentifier(identifier);\n    var obj = {\n      css: item[1],\n      media: item[2],\n      sourceMap: item[3]\n    };\n\n    if (index !== -1) {\n      stylesInDom[index].references++;\n      stylesInDom[index].updater(obj);\n    } else {\n      stylesInDom.push({\n        identifier: identifier,\n        updater: addStyle(obj, options),\n        references: 1\n      });\n    }\n\n    identifiers.push(identifier);\n  }\n\n  return identifiers;\n}\n\nfunction insertStyleElement(options) {\n  var style = document.createElement('style');\n  var attributes = options.attributes || {};\n\n  if (typeof attributes.nonce === 'undefined') {\n    var nonce = typeof __webpack_nonce__ !== 'undefined' ? __webpack_nonce__ : null;\n\n    if (nonce) {\n      attributes.nonce = nonce;\n    }\n  }\n\n  Object.keys(attributes).forEach(function (key) {\n    style.setAttribute(key, attributes[key]);\n  });\n\n  if (typeof options.insert === 'function') {\n    options.insert(style);\n  } else {\n    var target = getTarget(options.insert || 'head');\n\n    if (!target) {\n      throw new Error(\"Couldn't find a style target. This probably means that the value for the 'insert' parameter is invalid.\");\n    }\n\n    target.appendChild(style);\n  }\n\n  return style;\n}\n\nfunction removeStyleElement(style) {\n  // istanbul ignore if\n  if (style.parentNode === null) {\n    return false;\n  }\n\n  style.parentNode.removeChild(style);\n}\n/* istanbul ignore next  */\n\n\nvar replaceText = function replaceText() {\n  var textStore = [];\n  return function replace(index, replacement) {\n    textStore[index] = replacement;\n    return textStore.filter(Boolean).join('\\n');\n  };\n}();\n\nfunction applyToSingletonTag(style, index, remove, obj) {\n  var css = remove ? '' : obj.media ? \"@media \".concat(obj.media, \" {\").concat(obj.css, \"}\") : obj.css; // For old IE\n\n  /* istanbul ignore if  */\n\n  if (style.styleSheet) {\n    style.styleSheet.cssText = replaceText(index, css);\n  } else {\n    var cssNode = document.createTextNode(css);\n    var childNodes = style.childNodes;\n\n    if (childNodes[index]) {\n      style.removeChild(childNodes[index]);\n    }\n\n    if (childNodes.length) {\n      style.insertBefore(cssNode, childNodes[index]);\n    } else {\n      style.appendChild(cssNode);\n    }\n  }\n}\n\nfunction applyToTag(style, options, obj) {\n  var css = obj.css;\n  var media = obj.media;\n  var sourceMap = obj.sourceMap;\n\n  if (media) {\n    style.setAttribute('media', media);\n  } else {\n    style.removeAttribute('media');\n  }\n\n  if (sourceMap && btoa) {\n    css += \"\\n/*# sourceMappingURL=data:application/json;base64,\".concat(btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))), \" */\");\n  } // For old IE\n\n  /* istanbul ignore if  */\n\n\n  if (style.styleSheet) {\n    style.styleSheet.cssText = css;\n  } else {\n    while (style.firstChild) {\n      style.removeChild(style.firstChild);\n    }\n\n    style.appendChild(document.createTextNode(css));\n  }\n}\n\nvar singleton = null;\nvar singletonCounter = 0;\n\nfunction addStyle(obj, options) {\n  var style;\n  var update;\n  var remove;\n\n  if (options.singleton) {\n    var styleIndex = singletonCounter++;\n    style = singleton || (singleton = insertStyleElement(options));\n    update = applyToSingletonTag.bind(null, style, styleIndex, false);\n    remove = applyToSingletonTag.bind(null, style, styleIndex, true);\n  } else {\n    style = insertStyleElement(options);\n    update = applyToTag.bind(null, style, options);\n\n    remove = function remove() {\n      removeStyleElement(style);\n    };\n  }\n\n  update(obj);\n  return function updateStyle(newObj) {\n    if (newObj) {\n      if (newObj.css === obj.css && newObj.media === obj.media && newObj.sourceMap === obj.sourceMap) {\n        return;\n      }\n\n      update(obj = newObj);\n    } else {\n      remove();\n    }\n  };\n}\n\nmodule.exports = function (list, options) {\n  options = options || {}; // Force single-tag solution on IE6-9, which has a hard limit on the # of <style>\n  // tags it will allow on a page\n\n  if (!options.singleton && typeof options.singleton !== 'boolean') {\n    options.singleton = isOldIE();\n  }\n\n  list = list || [];\n  var lastIdentifiers = modulesToDom(list, options);\n  return function update(newList) {\n    newList = newList || [];\n\n    if (Object.prototype.toString.call(newList) !== '[object Array]') {\n      return;\n    }\n\n    for (var i = 0; i < lastIdentifiers.length; i++) {\n      var identifier = lastIdentifiers[i];\n      var index = getIndexByIdentifier(identifier);\n      stylesInDom[index].references--;\n    }\n\n    var newLastIdentifiers = modulesToDom(newList, options);\n\n    for (var _i = 0; _i < lastIdentifiers.length; _i++) {\n      var _identifier = lastIdentifiers[_i];\n\n      var _index = getIndexByIdentifier(_identifier);\n\n      if (stylesInDom[_index].references === 0) {\n        stylesInDom[_index].updater();\n\n        stylesInDom.splice(_index, 1);\n      }\n    }\n\n    lastIdentifiers = newLastIdentifiers;\n  };\n};"
+    },
+    {
+      "id": "./src/css/common.scss",
+      "identifier": "/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/style-loader/dist/cjs.js??ref--5-0!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/sass-loader/dist/cjs.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/postcss-loader/src/index.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/src/css/common.scss",
+      "name": "./src/css/common.scss",
+      "index": 2,
+      "index2": 4,
+      "size": 1884,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "main"
+      ],
+      "issuer": "/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/babel-loader/lib/index.js?cacheDirectory=true!/Users/lijiangbo/Desktop/webpack/webpack-demo/src/index.js",
       "issuerId": "./src/index.js",
       "issuerName": "./src/index.js",
       "issuerPath": [
         {
           "id": "./src/index.js",
-          "identifier": "C:\\Users\\lijiangbo\\Desktop\\webpack\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!C:\\Users\\lijiangbo\\Desktop\\webpack\\webpack-demo\\src\\index.js",
+          "identifier": "/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/babel-loader/lib/index.js?cacheDirectory=true!/Users/lijiangbo/Desktop/webpack/webpack-demo/src/index.js",
           "name": "./src/index.js",
           "profile": {
-            "factory": 124,
-            "building": 2863
+            "factory": 44,
+            "building": 202
           }
         }
       ],
       "profile": {
-        "factory": 4,
-        "building": 18
+        "factory": 17,
+        "building": 81
       },
       "failed": false,
       "errors": 0,
@@ -272,29 +728,95 @@
       "reasons": [
         {
           "moduleId": "./src/index.js",
-          "moduleIdentifier": "C:\\Users\\lijiangbo\\Desktop\\webpack\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!C:\\Users\\lijiangbo\\Desktop\\webpack\\webpack-demo\\src\\index.js",
+          "moduleIdentifier": "/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/babel-loader/lib/index.js?cacheDirectory=true!/Users/lijiangbo/Desktop/webpack/webpack-demo/src/index.js",
           "module": "./src/index.js",
           "moduleName": "./src/index.js",
-          "type": "import()",
-          "userRequest": "./click.js",
-          "loc": "9:2-22"
+          "type": "harmony side effect evaluation",
+          "userRequest": "./css/common.scss",
+          "loc": "21:0-27"
         }
       ],
-      "usedExports": true,
+      "usedExports": false,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 1,
+      "source": "var api = require(\"!../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = require(\"!!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!../../node_modules/postcss-loader/src/index.js!./common.scss\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.id, content, '']];\n            }\n\nvar options = {\"injectType\":\"styleTag\"};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\n\nif (module.hot) {\n  if (!content.locals || module.hot.invalidate) {\n    var isEqualLocals = function isEqualLocals(a, b) {\n  if (!a && b || a && !b) {\n    return false;\n  }\n\n  var p;\n\n  for (p in a) {\n    if (a[p] !== b[p]) {\n      return false;\n    }\n  }\n\n  for (p in b) {\n    if (!a[p]) {\n      return false;\n    }\n  }\n\n  return true;\n};\n    var oldLocals = content.locals;\n\n    module.hot.accept(\n      \"!!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!../../node_modules/postcss-loader/src/index.js!./common.scss\",\n      function () {\n        content = require(\"!!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!../../node_modules/postcss-loader/src/index.js!./common.scss\");\n\n              content = content.__esModule ? content.default : content;\n\n              if (typeof content === 'string') {\n                content = [[module.id, content, '']];\n              }\n\n              if (!isEqualLocals(oldLocals, content.locals)) {\n                module.hot.invalidate();\n\n                return;\n              }\n\n              oldLocals = content.locals;\n\n              update(content);\n      }\n    )\n  }\n\n  module.hot.dispose(function() {\n    update();\n  });\n}\n\nmodule.exports = content.locals || {};"
+    },
+    {
+      "id": "./src/css/logo.jpeg",
+      "identifier": "/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/file-loader/dist/cjs.js??ref--4!/Users/lijiangbo/Desktop/webpack/webpack-demo/src/css/logo.jpeg",
+      "name": "./src/css/logo.jpeg",
+      "index": 1,
+      "index2": 0,
+      "size": 60,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "main"
+      ],
+      "issuer": "/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/babel-loader/lib/index.js?cacheDirectory=true!/Users/lijiangbo/Desktop/webpack/webpack-demo/src/index.js",
+      "issuerId": "./src/index.js",
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "id": "./src/index.js",
+          "identifier": "/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/babel-loader/lib/index.js?cacheDirectory=true!/Users/lijiangbo/Desktop/webpack/webpack-demo/src/index.js",
+          "name": "./src/index.js",
+          "profile": {
+            "factory": 44,
+            "building": 202
+          }
+        }
+      ],
+      "profile": {
+        "factory": 17,
+        "building": 81
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [
+        "images/logo.jpeg"
+      ],
+      "reasons": [
+        {
+          "moduleId": "./src/index.js",
+          "moduleIdentifier": "/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/babel-loader/lib/index.js?cacheDirectory=true!/Users/lijiangbo/Desktop/webpack/webpack-demo/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "type": "harmony side effect evaluation",
+          "userRequest": "./css/logo.jpeg",
+          "loc": "20:0-37"
+        },
+        {
+          "moduleId": "./src/index.js",
+          "moduleIdentifier": "/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/babel-loader/lib/index.js?cacheDirectory=true!/Users/lijiangbo/Desktop/webpack/webpack-demo/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "type": "harmony import specifier",
+          "userRequest": "./css/logo.jpeg",
+          "loc": "23:10-16"
+        }
+      ],
+      "usedExports": [
+        "default"
+      ],
       "providedExports": [
         "default"
       ],
       "optimizationBailout": [],
       "depth": 1,
-      "source": "function haddleClick() {\n  const element = document.createElement('div');\n  element.innerHTML = '早上好,rourou-lee';\n  document.body.appendChild(element);\n}\n\nexport default haddleClick;"
+      "source": "export default __webpack_public_path__ + \"images/logo.jpeg\";"
     },
     {
       "id": "./src/index.js",
-      "identifier": "C:\\Users\\lijiangbo\\Desktop\\webpack\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!C:\\Users\\lijiangbo\\Desktop\\webpack\\webpack-demo\\src\\index.js",
+      "identifier": "/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/babel-loader/lib/index.js?cacheDirectory=true!/Users/lijiangbo/Desktop/webpack/webpack-demo/src/index.js",
       "name": "./src/index.js",
       "index": 0,
-      "index2": 0,
-      "size": 787,
+      "index2": 5,
+      "size": 1015,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -307,8 +829,8 @@
       "issuerName": null,
       "issuerPath": null,
       "profile": {
-        "factory": 124,
-        "building": 2863
+        "factory": 44,
+        "building": 202
       },
       "failed": false,
       "errors": 0,
@@ -326,17 +848,17 @@
         }
       ],
       "usedExports": true,
-      "providedExports": null,
+      "providedExports": [],
       "optimizationBailout": [],
       "depth": 0,
-      "source": "// async function getComponent(){\n//     const {default:_}=await import(/*webpackChunkName:\"lodash\"*/ 'lodash');\n//      const element=document.createElement('div');\n//         element.innerHTML=_.join(['早上好','rourou-lee']);\n//         return element;\n//     //异步引入lodash库,打包后名称为wendors-lodash.js，可通过修改webpack.common.js的optimization修改名称\n// }\ndocument.addEventListener('click', () => {\n  import('./click.js').then((_ref) => {\n    let {\n      default: func\n    } = _ref;\n    func();\n  });\n}); // import _ from 'lodash';\n// var element=document.createElement('div');\n//          element.innerHTML=_.join(['早上好','rourou-lee']);\n//          document.body.appendChild(element);\n// import {add} from './math.js';\n// console.log(add(1,2));"
+      "source": "// async function getComponent(){\n//     const {default:_}=await import(/*webpackChunkName:\"lodash\"*/ 'lodash');\n//      const element=document.createElement('div');\n//         element.innerHTML=_.join(['早上好','rourou-lee']);\n//         return element;\n//     //异步引入lodash库,打包后名称为wendors-lodash.js，可通过修改webpack.common.js的optimization修改名称\n// }\n//document.addEventListener('click',()=>{\n//   import(/* webpackPrefetch: true */'./click.js').then(({default:func})=>{\n//       func();\n//    })\n//});\n// import _ from 'lodash';\n// var element=document.createElement('div');\n//          element.innerHTML=_.join(['早上好','rourou-lee']);\n//          document.body.appendChild(element);\n// import {add} from './math.js';\n// console.log(add(1,2));\n//import \"@babel/polyfill\";\nimport avatar from './css/logo.jpeg';\nimport './css/common.scss';\nvar img = new Image();\nimg.src = avatar;\nimg.classList.add('avatar');\nvar root = document.getElementById('app');\nroot.append(img);"
     }
   ],
   "filteredModules": 0,
   "logging": {
     "webpack.buildChunkGraph.visitModules": {
       "entries": [],
-      "filteredEntries": 5,
+      "filteredEntries": 2,
       "debug": false
     }
   },
@@ -345,14 +867,14 @@
       "errors": [],
       "warnings": [],
       "publicPath": "",
-      "outputPath": "C:\\Users\\lijiangbo\\Desktop\\webpack\\webpack-demo\\dist",
+      "outputPath": "/Users/lijiangbo/Desktop/webpack/webpack-demo/dist",
       "assetsByChunkName": {
         "HtmlWebpackPlugin_0": "__child-HtmlWebpackPlugin_0"
       },
       "assets": [
         {
           "name": "__child-HtmlWebpackPlugin_0",
-          "size": 5929,
+          "size": 5797,
           "chunks": [
             "HtmlWebpackPlugin_0"
           ],
@@ -394,14 +916,14 @@
           "rendered": true,
           "initial": true,
           "entry": true,
-          "size": 522,
+          "size": 492,
           "names": [
             "HtmlWebpackPlugin_0"
           ],
           "files": [
             "__child-HtmlWebpackPlugin_0"
           ],
-          "hash": "365440b6e9dbbbe8279d",
+          "hash": "34dc01fe3f18140c04a4",
           "siblings": [],
           "parents": [],
           "children": [],
@@ -409,11 +931,11 @@
           "modules": [
             {
               "id": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
-              "identifier": "C:\\Users\\lijiangbo\\Desktop\\webpack\\webpack-demo\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\Users\\lijiangbo\\Desktop\\webpack\\webpack-demo\\src\\index.html",
+              "identifier": "/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/html-webpack-plugin/lib/loader.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/src/index.html",
               "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
               "index": 0,
               "index2": 0,
-              "size": 522,
+              "size": 492,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -426,8 +948,8 @@
               "issuerName": null,
               "issuerPath": null,
               "profile": {
-                "factory": 44,
-                "building": 26
+                "factory": 12,
+                "building": 10
               },
               "failed": false,
               "errors": 0,
@@ -440,7 +962,7 @@
                   "module": null,
                   "moduleName": null,
                   "type": "single entry",
-                  "userRequest": "C:\\Users\\lijiangbo\\Desktop\\webpack\\webpack-demo\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\Users\\lijiangbo\\Desktop\\webpack\\webpack-demo\\src\\index.html",
+                  "userRequest": "/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/html-webpack-plugin/lib/loader.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/src/index.html",
                   "loc": "HtmlWebpackPlugin_0"
                 }
               ],
@@ -448,7 +970,7 @@
               "providedExports": null,
               "optimizationBailout": [],
               "depth": 0,
-              "source": "var _ = __non_webpack_require__(\"C:\\\\Users\\\\lijiangbo\\\\Desktop\\\\webpack\\\\webpack-demo\\\\node_modules\\\\lodash\\\\lodash.js\");module.exports = function (templateParams) { with(templateParams) {return (function(data) {\nvar __t, __p = '';\n__p += '<!DOCTYPE html>\\r\\n<html lang=\"en\">\\r\\n<head>\\r\\n    <meta charset=\"UTF-8\">\\r\\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\\r\\n    <title>html tmplate</title>\\r\\n</head>\\r\\n<body>\\r\\n    <div id=\\'app\\'></div>\\r\\n</body>\\r\\n</html>';\nreturn __p\n})();}}"
+              "source": "var _ = __non_webpack_require__(\"/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/lodash/lodash.js\");module.exports = function (templateParams) { with(templateParams) {return (function(data) {\nvar __t, __p = '';\n__p += '<!DOCTYPE html>\\n<html lang=\"en\">\\n<head>\\n    <meta charset=\"UTF-8\">\\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\\n    <title>html tmplate</title>\\n</head>\\n<body>\\n    <div id=\\'app\\'></div>\\n</body>\\n</html>';\nreturn __p\n})();}}"
             }
           ],
           "filteredModules": 0,
@@ -458,7 +980,7 @@
               "moduleIdentifier": "",
               "moduleName": "",
               "loc": "HtmlWebpackPlugin_0",
-              "request": "C:\\Users\\lijiangbo\\Desktop\\webpack\\webpack-demo\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\Users\\lijiangbo\\Desktop\\webpack\\webpack-demo\\src\\index.html",
+              "request": "/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/html-webpack-plugin/lib/loader.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/src/index.html",
               "reasons": []
             }
           ]
@@ -467,11 +989,11 @@
       "modules": [
         {
           "id": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
-          "identifier": "C:\\Users\\lijiangbo\\Desktop\\webpack\\webpack-demo\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\Users\\lijiangbo\\Desktop\\webpack\\webpack-demo\\src\\index.html",
+          "identifier": "/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/html-webpack-plugin/lib/loader.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/src/index.html",
           "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
           "index": 0,
           "index2": 0,
-          "size": 522,
+          "size": 492,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -484,8 +1006,8 @@
           "issuerName": null,
           "issuerPath": null,
           "profile": {
-            "factory": 44,
-            "building": 26
+            "factory": 12,
+            "building": 10
           },
           "failed": false,
           "errors": 0,
@@ -498,7 +1020,7 @@
               "module": null,
               "moduleName": null,
               "type": "single entry",
-              "userRequest": "C:\\Users\\lijiangbo\\Desktop\\webpack\\webpack-demo\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\Users\\lijiangbo\\Desktop\\webpack\\webpack-demo\\src\\index.html",
+              "userRequest": "/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/html-webpack-plugin/lib/loader.js!/Users/lijiangbo/Desktop/webpack/webpack-demo/src/index.html",
               "loc": "HtmlWebpackPlugin_0"
             }
           ],
@@ -506,7 +1028,7 @@
           "providedExports": null,
           "optimizationBailout": [],
           "depth": 0,
-          "source": "var _ = __non_webpack_require__(\"C:\\\\Users\\\\lijiangbo\\\\Desktop\\\\webpack\\\\webpack-demo\\\\node_modules\\\\lodash\\\\lodash.js\");module.exports = function (templateParams) { with(templateParams) {return (function(data) {\nvar __t, __p = '';\n__p += '<!DOCTYPE html>\\r\\n<html lang=\"en\">\\r\\n<head>\\r\\n    <meta charset=\"UTF-8\">\\r\\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\\r\\n    <title>html tmplate</title>\\r\\n</head>\\r\\n<body>\\r\\n    <div id=\\'app\\'></div>\\r\\n</body>\\r\\n</html>';\nreturn __p\n})();}}"
+          "source": "var _ = __non_webpack_require__(\"/Users/lijiangbo/Desktop/webpack/webpack-demo/node_modules/lodash/lodash.js\");module.exports = function (templateParams) { with(templateParams) {return (function(data) {\nvar __t, __p = '';\n__p += '<!DOCTYPE html>\\n<html lang=\"en\">\\n<head>\\n    <meta charset=\"UTF-8\">\\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\\n    <title>html tmplate</title>\\n</head>\\n<body>\\n    <div id=\\'app\\'></div>\\n</body>\\n</html>';\nreturn __p\n})();}}"
         }
       ],
       "filteredModules": 0,

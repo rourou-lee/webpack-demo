@@ -31,24 +31,30 @@ module.exports={
                     }
                 }
             },{
-                test:/\.css$/i,
+                test:/\.scss$/i,
                 use:[{
                         loader:'style-loader',
                         options:{
                             injectType:'styleTag'
                         }
                     },
-                    'css-loader']              
+                    'css-loader','sass-loader','postcss-loader']              
             },
             { 
                 test: /\.js$/, 
                 exclude: /node_modules/, 
-                loader: "babel-loader?cacheDirectory=true" , //babel与webpack的沟通媒介
+                use:[
+                    {
+                        loader:'babel-loader'
+                    },{
+                        loader:'imports-loader?this=>window'  //将this指向window
+                    }
+                ],
+                //loader: "babel-loader?cacheDirectory=true" , //babel与webpack的沟通媒介
             }
         ]
     },
-    plugins:[
-        
+    plugins:[ 
         new HtmlWebpackPlugin({
             template:'src/index.html'
         }),
@@ -57,6 +63,11 @@ module.exports={
          * 如果output.path配置了绝对路径，此处不需要配置，无需传参*/
         new CleanWebpackPlugin({
             cleanAfterEveryBuildPatterns: ['dist']
+        }),
+        new webpack.ProvidePlugin({
+            $:'jquery',  //若发现有些模块使用$,就会帮助引入jquery,并命名模块为$
+            _join:['lodash','join'],
+            _:'lodash'
         })
     ],
     optimization:{
